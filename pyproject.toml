@@ -1,0 +1,19 @@
+[project]
+name = "short-memory-langgraph"
+version = "0.1.0"
+description = "Aqui vamos a usar a Memória de curto prazo com o Framework LangGraph"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.0.3",
+    "langchain-groq>=1.0.0",
+    "langgraph>=1.0.2",
+    "langgraph-checkpoint-sqlite>=2.0.14",
+    "python-dotenv>=1.2.1",
+    "typing-extensions>=4.15.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.9.0",
+]
